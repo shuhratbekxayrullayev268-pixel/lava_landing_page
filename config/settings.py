@@ -117,10 +117,9 @@ USE_TZ = True
 
 # Static fayllar uchun umumiy manzil (URL)
 STATIC_URL = 'static/'
-
+STATIC_ROOT = BASE_DIR / "staticfiles"
 # Django static fayllarni qaysi papkadan qidirishini ko'rsatish
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-STATIC_ROOT = BASE_DIR / "staticfiles"
